@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encripta2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="./js/main.js"></script>
+    </head>
+
+
+    <body>
+        <div class="container-fluid">
+            <h1 class="text-center">Encripta2</h1>
+        </div>
+    
+        <div class="container d-flex flex-row">
+
+            <div class="col-md-8 input-area">
+                <p class="text-center">Ingrese su texto</p>
+                <textarea type="text" id="userInput" class="w-100 h-25"></textarea>
+
+                <div class="container button-area">
+                    <button class="btn btn-primary" onclick="encriptar()">Encriptar</button>
+                    <button class="btn btn-secondary" onclick="desencriptar()">Desencriptar</button>
+                    
+                </div>   
+                <br>
+                
+                    <textarea  name=" " id="campo" class="w-100 h-25"></textarea>
+                    <div class="container button-area">
+                        <button class="btn btn-success" onclick="copytext()">Copiar</button>  
+                    </div>   
+            </div>
+
+            <div class="col-md-4 image-area">
+              <img src="./imagenes/lupa.jpg" alt="Imagen del encriptador" class="w-100 h-100">
+            </div>
+          
+            
+                
+        </div>
+        
+        
+        
+    </body>
+    </html>  
+    
+
+
